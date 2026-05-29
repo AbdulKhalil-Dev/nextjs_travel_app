@@ -96,7 +96,7 @@ export const hotelsData = [
   },
   {
     id: 5,
-    image: "/images/hotel6.jpg",
+    image: "/images/hotel6.jfif",
     name: "Luxury Stay",
     location: "Rome, Italy",
     rating: 4.5,
