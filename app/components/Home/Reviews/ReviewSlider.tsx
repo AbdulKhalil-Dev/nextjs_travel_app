@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-cards";
 import { EffectCards } from "swiper/modules";
+// import { Autoplay } from "swiper/modules";
 import Image from "next/image";
 import { reviewsData } from "../../data/data";
 
@@ -13,6 +14,11 @@ const ReviewSlider = () => {
   return (
     <div className='flex items-center justify-center'>
       <Swiper
+      // autoplay effect
+        // modules={[Autoplay]}
+        // autoplay={{ delay: 3000 }}
+        // loop={true}
+
         effect={"cards"}
         grabCursor={true}
         modules={[EffectCards]}
